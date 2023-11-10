@@ -11,6 +11,14 @@ Product product1 = new Product { Id = 2, CategoryId = 5, ProductName = "Pencil",
 // Instance Creation
 ProductManager productManager = new ProductManager();
 productManager.Add(product0);
+Console.WriteLine(product0.ProductName);
+Console.WriteLine(product0.UnitPrice);
+
+int sayi = 99;
+productManager.DoSometh(sayi);
+Console.WriteLine(sayi);
+
+
 
 // int, double, bool ... value type
 // arrays, class, abstract class, interface ... reference type

@@ -11,6 +11,16 @@ namespace OOP1
         // Encapsulation
         public void Add(Product product)
         {
+            Console.WriteLine(product.ProductName + " eklendi");
         }
+        public void Updated(Product product)
+        {
+            Console.WriteLine(product.ProductName + " güncellendi");
+        }
+        public void DoSometh(int sayi)
+        {
+            sayi = 100;
+        }
+       
     }
 }
